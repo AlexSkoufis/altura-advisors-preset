@@ -1,0 +1,151 @@
+{
+  "name": "Altura Advisors",
+  "seo": {
+    "titleDefault": "Altura Advisors | M&A Advisory for IT Services and Software Companies",
+    "titleTemplate": "%s | Altura Advisors",
+    "description": "Altura Advisors is a middle market M&A advisory firm focused exclusively on IT services and select software. We help founders sell to the right buyer, at the right value, on the right terms.",
+    "locale": "en_US"
+  },
+  "logo": {
+    "alt": "Altura Advisors"
+  },
+  "header": {
+    "homeLabel": "Altura Advisors home",
+    "nav": [
+      {
+        "label": "About",
+        "href": "#"
+      },
+      {
+        "label": "Services",
+        "href": "#"
+      },
+      {
+        "label": "Clients",
+        "href": "#"
+      },
+      {
+        "label": "M&A Playbook",
+        "href": "#"
+      },
+      {
+        "label": "Events",
+        "href": "#"
+      },
+      {
+        "label": "News",
+        "href": "#"
+      }
+    ],
+    "cta": {
+      "label": "Free valuation call",
+      "href": "#contact"
+    },
+    "menuOpenLabel": "Open menu",
+    "menuCloseLabel": "Close menu",
+    "mobileContactLabel": "Talk to an advisor"
+  },
+  "contact": {
+    "email": "deals@altura.example",
+    "phone": "(000) 000-0000",
+    "phoneHref": "tel:+10000000000",
+    "address": [
+      "410 Lakeshore Avenue, Suite 900",
+      "Chicago, IL 60601"
+    ],
+    "linkedin": {
+      "label": "LinkedIn",
+      "href": "#"
+    }
+  },
+  "footer": {
+    "tagline": "M&A advisory for IT services and software companies. Sell-side and buy-side, from first conversation to closing.",
+    "columns": [
+      {
+        "title": "About",
+        "links": [
+          {
+            "label": "Why Altura",
+            "href": "#"
+          },
+          {
+            "label": "Our Values",
+            "href": "#"
+          },
+          {
+            "label": "The Team",
+            "href": "#"
+          },
+          {
+            "label": "Locations",
+            "href": "#"
+          },
+          {
+            "label": "Careers",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Services",
+        "links": [
+          {
+            "label": "Sell-side advisory",
+            "href": "#"
+          },
+          {
+            "label": "Buy-side advisory",
+            "href": "#"
+          },
+          {
+            "label": "Why industry specialization matters",
+            "href": "#"
+          },
+          {
+            "label": "How an M&A advisor adds value",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "M&A Playbook",
+            "href": "#"
+          },
+          {
+            "label": "Market Update newsletter",
+            "href": "#"
+          },
+          {
+            "label": "M&A Insights podcast",
+            "href": "#"
+          },
+          {
+            "label": "Industry events",
+            "href": "#"
+          },
+          {
+            "label": "Industry news",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "contactTitle": "Contact",
+    "copyright": "© 2026 Altura Advisors. All rights reserved.",
+    "legal": [
+      {
+        "label": "Privacy Policy",
+        "href": "#"
+      }
+    ],
+    "credit": {
+      "prefix": "Designed by",
+      "label": "CoreConcepts Design",
+      "href": "https://coreconcepts.design/"
+    },
+    "backToTop": "Back to top"
+  }
+}

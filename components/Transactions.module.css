@@ -1,0 +1,99 @@
+.section {
+  padding-block: 40px 44px;
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin-bottom: 26px;
+  font-size: 15px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  animation: marquee 60s linear infinite;
+}
+
+.marquee:hover .track {
+  animation-play-state: paused;
+}
+
+.row {
+  display: flex;
+  gap: 14px;
+  padding-right: 14px;
+}
+
+.item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  background: var(--paper);
+  white-space: nowrap;
+  transition: background-color 0.3s var(--ease);
+}
+
+.item:hover {
+  background: var(--sky-2);
+}
+
+.company {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.connector {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-size: 16px;
+  color: var(--muted);
+}
+
+.buyer {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--brand);
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    overflow-x: auto;
+    mask-image: none;
+  }
+  .track {
+    animation: none;
+  }
+  .row[aria-hidden] {
+    display: none;
+  }
+}

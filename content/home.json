@@ -1,0 +1,413 @@
+{
+  "hero": {
+    "eyebrow": "M&A advisory for IT services and software companies",
+    "title": [
+      {
+        "text": "You built the business."
+      },
+      {
+        "text": "Now shape your",
+        "accent": "legacy."
+      }
+    ],
+    "lead": "We help founders of IT services and software companies sell to the right buyer, at the right value, on the right terms. Sell-side and buy-side advisory, backed by an industry network built over more than 30 years.",
+    "primaryCta": {
+      "label": "Get a free valuation consultation",
+      "href": "#contact"
+    },
+    "secondaryCta": {
+      "label": "See how a sale works",
+      "href": "#process"
+    },
+    "proof": {
+      "quote": "Altura is one of the few M&A advisors who truly understand IT services.",
+      "name": "Renée Castellano",
+      "role": "Founder, Brightline Managed IT"
+    },
+    "network": {
+      "ariaLabel": "Diagram: your company at the center, connected to strategic buyers, private equity, platform add-ons and international buyers.",
+      "center": [
+        "Your",
+        "company"
+      ],
+      "nodes": [
+        "Strategic buyers",
+        "Private equity",
+        "Platform add-ons",
+        "International buyers"
+      ],
+      "caption": "One confidential process. The right buyers at the table."
+    },
+    "scrollLabel": "Scroll"
+  },
+  "transactions": {
+    "label": "Select transactions",
+    "connector": "acquired by",
+    "items": [
+      {
+        "company": "Northbeam Networks",
+        "buyer": "Halcyon Systems"
+      },
+      {
+        "company": "Corvid Cloud",
+        "buyer": "Ardent Technology Group"
+      },
+      {
+        "company": "Pinemark Software",
+        "buyer": "Telmar Partners"
+      },
+      {
+        "company": "ClearSpan IT",
+        "buyer": "Brightline Managed IT"
+      },
+      {
+        "company": "Rookwood Data",
+        "buyer": "Summit Cyber"
+      },
+      {
+        "company": "Lattice Apps",
+        "buyer": "Orbital Software"
+      },
+      {
+        "company": "Copperfield MSP",
+        "buyer": "Vantage IT"
+      },
+      {
+        "company": "Gridwise",
+        "buyer": "Kestrel Digital"
+      },
+      {
+        "company": "Stonebridge Infrastructure",
+        "buyer": "Meridian Tech"
+      },
+      {
+        "company": "Fieldpoint RMM",
+        "buyer": "Telmar Partners"
+      },
+      {
+        "company": "Signalwise",
+        "buyer": "Harbor Growth Equity"
+      },
+      {
+        "company": "Tidewater Systems",
+        "buyer": "Ardent Technology Group"
+      }
+    ],
+    "cta": {
+      "label": "View all transactions",
+      "href": "#"
+    }
+  },
+  "scenarios": {
+    "eyebrow": "Where are you today?",
+    "title": "Every exit starts with a different question.",
+    "items": [
+      {
+        "id": "unsolicited",
+        "tab": "A buyer just called me",
+        "title": "An unsolicited offer is a starting point, not a price.",
+        "body": "Inbound interest is a sign your business is valuable. Before you share numbers or sign an NDA, get an independent view of what the company is worth and who else might pay more.",
+        "points": [
+          "An independent view of value before you reply",
+          "A clear picture of other likely buyers",
+          "Advice on what to share, and when"
+        ],
+        "cta": {
+          "label": "Talk to an advisor before you reply",
+          "href": "#contact"
+        }
+      },
+      {
+        "id": "exit",
+        "tab": "I am planning my exit",
+        "title": "The best exits are prepared long before the sale.",
+        "body": "Whether you plan to sell next year or further out, preparation shapes your valuation, your deal terms and how well the business runs without you.",
+        "points": [
+          "An honest exit readiness review",
+          "The value drivers worth strengthening now",
+          "A timeline that fits your personal goals"
+        ],
+        "cta": {
+          "label": "Start planning my exit",
+          "href": "#contact"
+        }
+      },
+      {
+        "id": "acquire",
+        "tab": "I want to acquire",
+        "title": "Grow faster through the right acquisition.",
+        "body": "We help IT services and software companies find, evaluate and negotiate acquisitions that fit their strategy, their numbers and their culture.",
+        "points": [
+          "Target identification and confidential outreach",
+          "Valuation and deal structure",
+          "Negotiation through to closing"
+        ],
+        "cta": {
+          "label": "Discuss buy-side support",
+          "href": "#contact"
+        }
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Two sides of the table. One specialist team.",
+    "items": [
+      {
+        "id": "sell",
+        "tag": "Sell-side",
+        "title": "Selling your company",
+        "lead": "For founders and owners selling all or part of an IT services or software business.",
+        "points": [
+          "Valuation and positioning",
+          "Preparation of financials and buyer materials",
+          "Confidential outreach to qualified buyers",
+          "Negotiation of price, structure and terms",
+          "Due diligence support through closing"
+        ],
+        "cta": {
+          "label": "Explore sell-side advisory",
+          "href": "#"
+        }
+      },
+      {
+        "id": "buy",
+        "tag": "Buy-side",
+        "title": "Acquiring a company",
+        "lead": "For IT services and software companies growing through acquisition.",
+        "points": [
+          "Acquisition strategy and criteria",
+          "Target identification and approach",
+          "Valuation and deal structuring",
+          "Negotiation and diligence coordination",
+          "Support through closing"
+        ],
+        "cta": {
+          "label": "Explore buy-side advisory",
+          "href": "#"
+        }
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How a sale works",
+    "title": "A clear path from first call to closing.",
+    "lead": "No surprises. You always know where the process stands and what comes next.",
+    "steps": [
+      {
+        "title": "Discovery and valuation",
+        "body": "We learn your business, your goals and what a great outcome means to you. Then we give you a realistic view of value and what moves it."
+      },
+      {
+        "title": "Preparation and positioning",
+        "body": "We prepare the financials, the story and the materials buyers will scrutinize, so issues are found by us, not by them.",
+        "note": "Most value is created before the process starts."
+      },
+      {
+        "title": "Confidential buyer outreach",
+        "body": "We approach a curated list of strategic and financial buyers from our network, under NDA, and manage every conversation."
+      },
+      {
+        "title": "Negotiation and due diligence",
+        "body": "We create competitive tension, compare offers on price, structure and terms, and keep diligence moving so momentum is never lost."
+      },
+      {
+        "title": "Closing and transition",
+        "body": "We work alongside your attorneys and accountants through signing and closing, and help plan a transition that protects your team and your clients."
+      }
+    ],
+    "cta": {
+      "label": "Start with a free valuation consultation",
+      "href": "#contact"
+    }
+  },
+  "why": {
+    "eyebrow": "Why Altura",
+    "title": "Advisors who have sat in your chair.",
+    "stats": [
+      {
+        "value": 30,
+        "suffix": "+",
+        "label": "years building our industry network"
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "label": "focused on IT services and select software"
+      },
+      {
+        "value": 2,
+        "suffix": "",
+        "label": "sides of the deal: sell-side and buy-side"
+      }
+    ],
+    "matterLabel": "Why it matters",
+    "items": [
+      {
+        "title": "We've walked in your shoes",
+        "body": "We were operators, founders, sellers and buyers of businesses before advising our clients on selling theirs.",
+        "matters": "Experience and judgment close deals. Not templates."
+      },
+      {
+        "title": "Data-Driven Positioning & Preparation",
+        "body": "Our proprietary market intelligence and preparation frameworks reduce surprises, strengthen leverage, and increase the probability of a premium outcome.",
+        "matters": "Most value is created before the process starts."
+      },
+      {
+        "title": "Decades of M&A advisory experience",
+        "body": "Our M&A savvy team has learned over the years how to avoid mistakes, better position, culturally align, when to walk away, and when to push vs not push.",
+        "matters": "More credible buyer conversations, high closing probability"
+      }
+    ]
+  },
+  "focus": {
+    "eyebrow": "Focus areas",
+    "title": "We only work in technology. That is the point.",
+    "lead": "Specialist buyers pay for specialist knowledge. We speak your market's language, know its buyers, and understand what drives value in each segment.",
+    "ecosystemLabel": "Ecosystem",
+    "items": [
+      {
+        "title": "IT Services: Infrastructure",
+        "segments": [
+          "MSPs",
+          "Systems Integrators",
+          "VARs",
+          "Cloud Providers",
+          "ISPs"
+        ],
+        "ecosystem": "Cisco, Dell, Avaya, IBM, HP, Citrix, VMware, Lenovo, Microsoft, AWS, and many others"
+      },
+      {
+        "title": "IT Services: Applications",
+        "segments": [
+          "ERP",
+          "CRM",
+          "Digital Transformation",
+          "Consulting",
+          "App Development",
+          "Staffing"
+        ],
+        "ecosystem": "Microsoft, SAP, Salesforce, Oracle, Guidewire, Infor, and many others"
+      },
+      {
+        "title": "Software",
+        "segments": [
+          "Mobile",
+          "Security",
+          "CRM",
+          "ERP",
+          "Monitoring",
+          "Data Integration",
+          "Big Data"
+        ],
+        "ecosystem": ""
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "In our clients' words",
+    "prevLabel": "Previous testimonial",
+    "nextLabel": "Next testimonial",
+    "items": [
+      {
+        "quote": "Altura is one of the few M&A advisors who truly understand IT services. A deal is built on trust, and they earned ours in the first meeting.",
+        "name": "Renée Castellano",
+        "role": "Founder, Brightline Managed IT"
+      },
+      {
+        "quote": "They took the time to understand our business and our culture, then helped us choose the right buyer, not just the highest first offer.",
+        "name": "Marcus Feld",
+        "role": "Founder, Northbeam Networks"
+      },
+      {
+        "quote": "Our interests came first at every step. We could not have picked a better firm to represent us.",
+        "name": "Hannah Osei",
+        "role": "CEO, Pinemark Software"
+      }
+    ],
+    "cta": {
+      "label": "More testimonials",
+      "href": "#"
+    }
+  },
+  "playbook": {
+    "eyebrow": "The M&A Playbook",
+    "title": "Know the game before you play it.",
+    "lead": "Free, practical guidance for founders, from the first thought about an exit to life after closing.",
+    "items": [
+      {
+        "label": "M&A Strategy & Exit Planning",
+        "href": "#"
+      },
+      {
+        "label": "Business Valuation Insights",
+        "href": "#"
+      },
+      {
+        "label": "M&A Process & Timeline",
+        "href": "#"
+      },
+      {
+        "label": "Deal Structures & Terms",
+        "href": "#"
+      },
+      {
+        "label": "Buyer Types & Buyer Behavior",
+        "href": "#"
+      },
+      {
+        "label": "Preparing the Business for Sale",
+        "href": "#"
+      }
+    ],
+    "cta": {
+      "label": "Explore the full playbook",
+      "href": "#"
+    }
+  },
+  "contact": {
+    "eyebrow": "Start the conversation",
+    "title": [
+      "Find out what your",
+      "company is worth."
+    ],
+    "lead": "Book a free, confidential valuation consultation. No obligation, no pressure, just a clear view of your options.",
+    "assurances": [
+      "Strictly confidential",
+      "No cost, no obligation",
+      "Specialists in IT services and software"
+    ],
+    "directTitle": "Prefer to reach us directly?",
+    "form": {
+      "subject": "Valuation consultation request",
+      "fields": {
+        "name": {
+          "label": "Full name",
+          "autocomplete": "name"
+        },
+        "email": {
+          "label": "Work email",
+          "autocomplete": "email"
+        },
+        "company": {
+          "label": "Company",
+          "autocomplete": "organization"
+        },
+        "interest": {
+          "label": "I am interested in",
+          "options": [
+            "Selling my company",
+            "Acquiring a company",
+            "Exploring my options"
+          ]
+        },
+        "message": {
+          "label": "Anything we should know? (optional)"
+        }
+      },
+      "submit": "Request my consultation",
+      "note": "Submitting opens your email app with your details filled in.",
+      "error": "Please fill in your name, a valid email and your company."
+    }
+  }
+}

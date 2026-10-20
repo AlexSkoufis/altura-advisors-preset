@@ -1,0 +1,147 @@
+.footer {
+  background: #071b24;
+  color: var(--muted-inv);
+  font-size: 15px;
+  padding-top: clamp(64px, 8vw, 104px);
+}
+
+.top {
+  display: grid;
+  gap: 48px 32px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-bottom: 64px;
+}
+
+.brand {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 20px;
+  align-content: start;
+  max-width: 360px;
+}
+
+.logo {
+  display: block;
+  width: 240px;
+  height: auto;
+  color: var(--white);
+}
+
+.social {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  justify-self: start;
+  padding: 10px 16px;
+  border-radius: 999px;
+  box-shadow: inset 0 0 0 1px var(--line-inv);
+  color: var(--white);
+  font-weight: 500;
+  transition: background-color 0.3s var(--ease);
+}
+
+.social:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.colTitle {
+  margin-bottom: 18px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.col ul {
+  display: grid;
+  gap: 10px;
+}
+
+.col a {
+  transition: color 0.3s var(--ease);
+}
+
+.col a:hover,
+.col a:focus-visible {
+  color: var(--white);
+}
+
+.colContact {
+  grid-column: 1 / -1;
+}
+
+.contact {
+  display: grid;
+  gap: 14px;
+  font-style: normal;
+}
+
+.contact > a,
+.contact > span {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  overflow-wrap: anywhere;
+}
+
+.contact svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: var(--sky);
+}
+
+.line {
+  display: block;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 28px;
+  padding-block: 28px 36px;
+  border-top: 1px solid var(--line-inv);
+  font-size: 14px;
+}
+
+.legal a,
+.credit a,
+.top_link {
+  color: var(--white);
+}
+
+.legal a:hover,
+.credit a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.credit a {
+  font-weight: 600;
+}
+
+.top_link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+@media (min-width: 720px) {
+  .top {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .colContact {
+    grid-column: auto;
+  }
+}
+
+@media (min-width: 1100px) {
+  .top {
+    grid-template-columns: 1.5fr repeat(4, minmax(0, 1fr));
+  }
+  .brand {
+    grid-column: auto;
+  }
+}
